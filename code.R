@@ -6,4 +6,5 @@ summary(ds)
 library(ggplot2)
 
 ggplot(data = ds) +
-  geom_histogram(aes(x = a))
+  geom_histogram(aes(x = a)) +
+  theme_minimal()
