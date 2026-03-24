@@ -7,4 +7,4 @@ library(ggplot2)
 
 ggplot(data = ds) +
   geom_histogram(aes(x = a)) +
-  theme_minimal()
+  theme_void()
